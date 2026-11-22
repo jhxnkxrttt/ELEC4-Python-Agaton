@@ -37,7 +37,7 @@ python set1/p2/p2_main.py
 
 **Screenshot:**
 
-![P2 Screenshot](set1/p2/screenshots/p2Result.png, p2exit.png, p2EnterGrade.png)
+![P2 Screenshot](set1/p2/screenshots/p2Result.png)
 
 ---
 

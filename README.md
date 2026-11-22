@@ -25,18 +25,19 @@ python set1/p1/p1_grade_calculator.py
 ---
 
 ### P2 – Custom Module: student_utils
-[Write a one-line description of what your program does.]
+A Python program used import module, just like calling the backend from frontend,
+the frontend is the p2main.py and the backend is the student_utils.py
 
-**Folder:** [P2 – student_utils](set1/p2/)
+**Folder:** [P2 – student_utils,p2_main.py](set1/p2/)
 
 **How to run:**
 ```bash
-python set1/p2/main.py
+python set1/p2/p2_main.py
 ```
 
 **Screenshot:**
 
-![P2 Screenshot](set1/p2/screenshots/p2_result.png)
+![P2 Screenshot](set1/p2/screenshots/p2Result.png, p2exit.png, p2EnterGrade.png)
 
 ---
 

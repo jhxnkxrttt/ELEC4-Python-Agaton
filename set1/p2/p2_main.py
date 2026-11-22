@@ -24,14 +24,13 @@ def enter_grades():
 
         except ValueError:
             print("Invalid Input! Please enter a number.")
-
+    
         another = input("Enter another grade? (y/n): ").lower()
 
         if another != "y":
-            break
+          break
 
     return grades
-
 
 # Function 2: View results
 def view_results(grades):
@@ -84,3 +83,11 @@ def main():
 
 
 main()
+
+# The first import style is import module, which imports the entire module. 
+# When using this style, we need to use the module name followed by the function name 
+# to access its functions. The second import style is from module import name,
+# which allows us to import specific functions from a module
+# and use them directly without typing the module name.
+# In my program, I used both styles to demonstrate how Python
+# imports reusable functions from my custom module student_utils.

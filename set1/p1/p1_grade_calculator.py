@@ -90,4 +90,9 @@ def main():
 
 main()
 
-
+# Local and global variables:
+# The grades variable is a global variable because it is declared
+# outside all functions and can be accessed by different functions.
+# A local variable is created inside a function and is only accessible
+# within that function. For example, average inside compute_average
+# or determine_status is a local variable

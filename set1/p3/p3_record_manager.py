@@ -71,6 +71,38 @@ def display_students():
 
     print("Total students:", len(students))
 
+# Function 5: Main menu
+def main():
+    while True:
+        print("\n STUDENT RECORD MANAGER ")
+        print("1. Add student")
+        print("2. Remove student")
+        print("3. Search student")
+        print("4. Display all students")
+        print("5. Exit")
+
+        choice = input("Choose an option (1-5): ")
+
+        if choice == "1":
+            add_student()
+
+        elif choice == "2":
+            remove_student()
+
+        elif choice == "3":
+            search_student()
+
+        elif choice == "4":
+            display_students()
+
+        elif choice == "5":
+            print("Thank you! Goodbye!")
+            break
+
+        else:
+            print("Invalid choice! Please choose from 1-5.")
+
+main()
 
 # A list stores student names and allows us to arrange and display them alphabetically.
 # A set stores unique names and helps prevent duplicate student records.

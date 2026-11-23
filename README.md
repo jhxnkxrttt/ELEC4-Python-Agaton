@@ -42,13 +42,13 @@ python set1/p2/p2_main.py
 ---
 
 ### P3 – Student Record Manager
-[Write a one-line description of what your program does.]
+This program allow the user to add, remove, search, display the students name
 
 **Folder:** [P3 – Student Record Manager](set1/p3/)
 
 **How to run:**
 ```bash
-python set1/p3/main.py
+python set1/p3/p3_record_manager.py
 ```
 
 **Screenshot:**

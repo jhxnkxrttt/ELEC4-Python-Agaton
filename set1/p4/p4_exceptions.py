@@ -11,16 +11,50 @@ def divide_numbers():
         result = num1 / num2
 
     except ValueError:
-        print("Invalid input! Please enter numbers only.")
+        print("\nINVALID NUMBER! Please enter numbers only.")
 
     except ZeroDivisionError:
-        print("Error! You cannot divide by zero.")
+        print("ERROR! You cannot divide by zero.")
 
     else:
-        print("Result:", result)
+        print("\nResult:", result)
 
     finally:
-        print("Division operation finished.")
+        print("\nDivision operation finished.")
+
+# Function 2: Open and search file
+def open_file():
+    try:
+        filename = input("Enter filename to open: ").strip()
+
+        search_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+        found_path = None
+
+        for root, dirs, files in os.walk(search_folder):
+            if filename in files:
+                found_path = os.path.join(root, filename)
+                break
+
+        if found_path is None:
+            raise FileNotFoundError
+
+        with open(found_path, "r", encoding="utf-8") as file:
+            content = file.read()
+
+    except FileNotFoundError:
+        print("\nERROR! File not found.")
+
+    except PermissionError:
+        print("ERROR! You do not have permission to open this file.")
+
+    else:
+        print("\n===== FILE CONTENTS =====")
+        print(content)
+        print("\nFile location:", found_path)
+
+    finally:
+        print("File operation finished.")
 
 # Function 3: Main menu
 def main():
@@ -39,10 +73,10 @@ def main():
             open_file()
 
         elif choice == "3":
-            print("Thank you! Goodbye!")
+            print("\nTHANKYOU!")
             break
 
         else:
-            print("Invalid selection! Please choose 1-3.")
+            print("\nINVALID SELECTION! Please choose 1-3.")
 
 main()

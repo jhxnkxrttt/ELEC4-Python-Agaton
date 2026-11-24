@@ -20,7 +20,7 @@ python set1/p1/p1_grade_calculator.py
 
 **Screenshot:**
 
-![P1 Screenshot](set1/p1/screenshots/p1grade_view_Result.png)
+![P1 Screenshot](set1/p1/screenshot/p1Ask_student_to_Select_on_Menu.png)
 
 ---
 

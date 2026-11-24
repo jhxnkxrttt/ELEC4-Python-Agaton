@@ -37,7 +37,7 @@ python set1/p2/p2_main.py
 
 **Screenshot:**
 
-![P2 Screenshot](set1/p2/screenshots/p2Result.png)
+![P2 Screenshot](set1/p2/screenshot/p2EnterGrade.png)
 
 ---
 
@@ -53,7 +53,7 @@ python set1/p3/p3_record_manager.py
 
 **Screenshot:**
 
-![P3 Screenshot](set1/p3/screenshots/p3_result.png)
+![P3 Screenshot](set1/p3/screenshot/p3_AddStudent.png)
 
 ---
 
@@ -69,6 +69,6 @@ python set1/p4/p4_exceptions.py
 
 **Screenshot:**
 
-![P4 Screenshot](set1/p4/screenshots/p4_InvalidNumber.png)
+![P4 Screenshot](set1/p4/screenshot/p4_DivisionByZero.png)
 
 ---
